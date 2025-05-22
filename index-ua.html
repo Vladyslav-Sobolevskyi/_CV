@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="ua">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Sobolevskyi Vladyslav</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Questrial:wght@400&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div
+      class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.webp" alt=""> -->
+        <h1 class="sitename">HELLO!</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Головна</a></li>
+          <li><a href="#tech-skills">Навички</a></li>
+          <li><a href="#portfolio">Портфоліо</a></li>
+          <li class="dropdown"><a href="#resume"><span>Резюме</span> <i
+                class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#experience">Досвід</a></li>
+              <li><a href="#education">Освіта</a></li>
+              <li><a href="#courses">Курси</a></li>
+            </ul>
+          </li>
+          <li><a href="#contact">Контакти</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <!-- <div class="header-social-links">
+        <a href="#" class="twitter" target="_blank"><i class="bi bi-telegram"></i></a>
+        <a href="#" class="instagram" target="_blank"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.behance.net/Sobolevsky" class="linkedin" target="_blank"><i class="bi bi-behance"></i></a>
+        <a href="#" class="linkedin"><i class="bi bi-github"></i></a>
+      </div> -->
+
+      <!-- Перемикач мов -->
+      <div class="dropdown language-switcher header-social-links">
+        <button class="btn btn-outline-light dropdown-toggle" type="button" data-bs-toggle="dropdown"
+          aria-expanded="false">
+          EN
+        </button>
+        <ul class="dropdown-menu dropdown-menu-end">
+          <li><a class="dropdown-item" href="index.html">EN</a></li>
+          <li><a class="dropdown-item" href="index-ua.html">UA</a></li>
+        </ul>
+      </div>
+  </header>
+
+  <main class="main">
+
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row align-items-center content">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <h3>Привіт! Мене звати</h3>
+            <h2>Владислав Соболевський</h2>
+            <p class="lead">Я маю понад рік досвіду у фронтенд-розробці, активно вивчаю сучасні технології та практикую
+              створення інтерфейсів на HTML, SCSS та JavaScript. До цього 6 років працював графічним дизайнером, тому
+              маю сильне візуальне чуття, розуміння композиції, типографіки та принципів UI/UX. Шукаю можливості
+              розвиватися як фронтенд-розробник, долучатися до реальних проєктів і поглиблювати технічні навички,
+              використовуючи свій креативний бекграунд.
+            </p>
+            <div class="cta-buttons" data-aos="fade-up" data-aos-delay="300">
+              <a href="#portfolio" class="btn btn-primary">Мої роботи</a>
+              <a href="#contact" class="btn btn-outline">Зв'язатись</a>
+            </div>
+
+
+
+            <div class="hero-stats" data-aos="fade-up" data-aos-delay="400">
+              <div class="stat-item">
+                <span class="stat-number" data-target="6">0</span>
+                <span class="stat-label">Досвід роботи в дизайні</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number" data-target="1">0</span>
+                <span class="stat-label">Досвід роботи в Front-end</span>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-6">
+            <div class="hero-image">
+              <img src="assets/img/profile/photo_2024-03-19 12.49.15.png" alt="Portfolio Hero Image" class="img-fluid"
+                data-aos="zoom-out" data-aos-delay="300">
+              <div class="shape-1"></div>
+              <div class="shape-2"></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- Tech Skills Section -->
+    <section id="tech-skills" class="skills py-5 bg-light">
+      <div class="container" data-aos="fade-up">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Технічні навички</h2>
+          <div class="title-shape">
+            <svg viewBox="0 0 200 20" xmlns="http://www.w3.org/2000/svg">
+              <path d="M 0,10 C 40,0 60,20 100,10 C 140,0 160,20 200,10" fill="none" stroke="currentColor"
+                stroke-width="2"></path>
+            </svg>
+          </div>
+          <!-- <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur vel
+          illum qui dolorem</p> -->
+        </div><!-- End Section Title -->
+
+        <div class="row justify-content-center text-center g-4 mb-5">
+          <!-- HTML -->
+          <div class="col-6 col-md-4 col-lg-3 skill-box" data-aos="zoom-in" data-aos-delay="100">
+            <div class="p-4 bg-white shadow rounded-3 h-100">
+              <i class="bi bi-filetype-html display-5 text-danger mb-3 skill-icon"></i>
+              <h5 class="mb-0">HTML5</h5>
+            </div>
+          </div>
+          <!-- CSS / SCSS -->
+          <div class="col-6 col-md-4 col-lg-3 skill-box" data-aos="zoom-in" data-aos-delay="150">
+            <div class="p-4 bg-white shadow rounded-3 h-100">
+              <i class="bi bi-filetype-css display-5 text-primary mb-3 skill-icon"></i>
+              <h5 class="mb-0">CSS3 / SCSS</h5>
+            </div>
+          </div>
+          <!-- JavaScript -->
+          <div class="col-6 col-md-4 col-lg-3 skill-box" data-aos="zoom-in" data-aos-delay="200">
+            <div class="p-4 bg-white shadow rounded-3 h-100">
+              <i class="bi bi-filetype-js display-5 text-warning mb-3 skill-icon"></i>
+              <h5 class="mb-0">JavaScript</h5>
+            </div>
+          </div>
+          <!-- Bootstrap -->
+          <div class="col-6 col-md-4 col-lg-3 skill-box" data-aos="zoom-in" data-aos-delay="250">
+            <div class="p-4 bg-white shadow rounded-3 h-100">
+              <i class="bi bi-bootstrap-fill display-5 text-purple mb-3 skill-icon"></i>
+              <h5 class="mb-0">Bootstrap</h5>
+            </div>
+          </div>
+          <!-- React -->
+          <div class="col-6 col-md-4 col-lg-3 skill-box" data-aos="zoom-in" data-aos-delay="300">
+            <div class="p-4 bg-white shadow rounded-3 h-100">
+              <i class="bi bi-lightning-charge-fill display-5 text-info mb-3 skill-icon"></i>
+              <h5 class="mb-0">React</h5>
+            </div>
+          </div>
+          <!-- Gulp -->
+          <div class="col-6 col-md-4 col-lg-3 skill-box" data-aos="zoom-in" data-aos-delay="350">
+            <div class="p-4 bg-white shadow rounded-3 h-100">
+              <i class="bi bi-gear-wide-connected display-5 text-danger mb-3 skill-icon"></i>
+              <h5 class="mb-0">Gulp</h5>
+            </div>
+          </div>
+          <!-- Git -->
+          <div class="col-6 col-md-4 col-lg-3 skill-box" data-aos="zoom-in" data-aos-delay="400">
+            <div class="p-4 bg-white shadow rounded-3 h-100">
+              <i class="bi bi-git display-5 text-dark mb-3 skill-icon"></i>
+              <h5 class="mb-0">Git / GitLab</h5>
+            </div>
+          </div>
+          <!-- Figma -->
+          <div class="col-6 col-md-4 col-lg-3 skill-box" data-aos="zoom-in" data-aos-delay="450">
+            <div class="p-4 bg-white shadow rounded-3 h-100">
+              <i class="bi bi-brush-fill display-5 text-success mb-3 skill-icon"></i>
+              <h5 class="mb-0">Figma</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- /Tech Skills Section -->
+
+
+    <!-- Soft Skills Section -->
+    <section id="soft-skills" class="skills py-5 bg-light">
+      <div class="container" data-aos="fade-up">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Софт навички</h2>
+          <div class="title-shape">
+            <svg viewBox="0 0 200 20" xmlns="http://www.w3.org/2000/svg">
+              <path d="M 0,10 C 40,0 60,20 100,10 C 140,0 160,20 200,10" fill="none" stroke="currentColor"
+                stroke-width="2"></path>
+            </svg>
+          </div>
+          <!-- <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur vel
+          illum qui dolorem</p> -->
+        </div><!-- End Section Title -->
+
+        <div class="row justify-content-center text-center g-4">
+          <div class="col-6 col-md-4 col-lg-3 skill-box" data-aos="fade-up" data-aos-delay="100">
+            <div class="p-3 bg-white rounded-3 shadow-sm">Scrum</div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 skill-box" data-aos="fade-up" data-aos-delay="150">
+            <div class="p-3 bg-white rounded-3 shadow-sm">Agile</div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 skill-box" data-aos="fade-up" data-aos-delay="200">
+            <div class="p-3 bg-white rounded-3 shadow-sm">Командна робота</div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 skill-box" data-aos="fade-up" data-aos-delay="250">
+            <div class="p-3 bg-white rounded-3 shadow-sm">Комунікація</div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 skill-box" data-aos="fade-up" data-aos-delay="300">
+            <div class="p-3 bg-white rounded-3 shadow-sm">Увага до деталей</div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 skill-box" data-aos="fade-up" data-aos-delay="350">
+            <div class="p-3 bg-white rounded-3 shadow-sm">Управління часом</div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- /Soft Skills Section -->
+
+
+    <section id="portfolio" class="portfolio section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Портфоліо</h2>
+        <div class="title-shape">
+          <svg viewBox="0 0 200 20" xmlns="http://www.w3.org/2000/svg">
+            <path d="M 0,10 C 40,0 60,20 100,10 C 140,0 160,20 200,10" fill="none" stroke="currentColor"
+              stroke-width="2"></path>
+          </svg>
+        </div>
+        <!-- <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur vel
+          illum qui dolorem</p> -->
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <div class="portfolio-filters-container" data-aos="fade-up" data-aos-delay="200">
+            <ul class="portfolio-filters isotope-filters">
+              <li data-filter="*" class="filter-active">Усі проєкти</li>
+              <li data-filter=".filter-web">Web Дизайн</li>
+              <li data-filter=".filter-frontend">Frontend Dev</li>
+            </ul>
+          </div>
+
+          <div class="row g-4 isotope-container" data-aos="fade-up" data-aos-delay="300">
+
+            <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-web filter-frontend">
+              <div class="portfolio-card">
+                <div class="portfolio-image">
+                  <img src="assets/img/portfolio/Project Portfilio 1.jpg" class="img-fluid" alt="" loading="lazy">
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-actions">
+                      <a href="https://vladyslav-sobolevskyi.github.io/HealsCare/" class="linkedin" target="_blank"><i
+                          class="bi bi-eye"></i></a>
+                      <a href="https://gitlab.com/Vladyslav_Sobolevskyi/dan-it_sobolevskyi-vladyslav_step-project-advanced-js.git"
+                        class="details-link" target="_blank"><i class="bi bi-gitlab"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-content">
+                  <span class="category">HTML / Saas / JS / Design</span>
+                  <h3>Healse Care</h3>
+                  <!-- <p>Maecenas faucibus mollis interdum sed posuere consectetur est at lobortis.</p> -->
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+
+            <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-frontend">
+              <div class="portfolio-card">
+                <div class="portfolio-image">
+                  <img src="assets/img/portfolio/Project Portfilio 2.jpg" class="img-fluid" alt="" loading="lazy">
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-actions">
+                      <a href="https://vladyslav-sobolevskyi.github.io/DAN.IT_Step_Basic-JS/" class="linkedin"
+                        target="_blank"><i class="bi bi-eye"></i></a>
+                      <a href="https://gitlab.com/Vladyslav_Sobolevskyi/dan-it_sobolevskyi-vladyslav_step-project-basic-js.git"
+                        class="details-link" target="_blank"><i class="bi bi-gitlab"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-content">
+                  <span class="category">HTML / CSS / JS</span>
+                  <h3>Fitness First</h3>
+                  <!-- <p>Maecenas faucibus mollis interdum sed posuere consectetur est at lobortis.</p> -->
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+
+            <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-frontend">
+              <div class="portfolio-card">
+                <div class="portfolio-image">
+                  <img src="assets/img/portfolio/Project Portfilio 3.jpg" class="img-fluid" alt="" loading="lazy">
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-actions">
+                      <a href="https://vladyslav-sobolevskyi.github.io/Dianne_STUDIO/" class="linkedin"
+                        target="_blank"><i class="bi bi-eye"></i></a>
+                      <a href="https://gitlab.com/Vladyslav_Sobolevskyi/step-project-2-advanced-html-css.git"
+                        class="details-link" target="_blank"><i class="bi bi-gitlab"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-content">
+                  <span class="category">HTML / CSS</span>
+                  <h3>Dianne Studio</h3>
+                  <!-- <p>Maecenas faucibus mollis interdum sed posuere consectetur est at lobortis.</p> -->
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+
+            <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-frontend">
+              <div class="portfolio-card">
+                <div class="portfolio-image">
+                  <img src="assets/img/portfolio/Project Portfilio 4.jpg" class="img-fluid" alt="" loading="lazy">
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-actions">
+                      <a href="https://vladyslav-sobolevskyi.github.io/E-Tutoria/" class="linkedin"
+                        target="_blank"><i class="bi bi-eye"></i></a>
+                      <a href="https://gitlab.com/Vladyslav_Sobolevskyi/step-1_basic_html_css.git"
+                        class="details-link" target="_blank"><i class="bi bi-gitlab"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-content">
+                  <span class="category">HTML / CSS</span>
+                  <h3>E-Tutoria</h3>
+                  <!-- <p>Maecenas faucibus mollis interdum sed posuere consectetur est at lobortis.</p> -->
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+
+          </div><!-- End Portfolio Container -->
+
+        </div>
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Резюме</h2>
+        <div class="title-shape">
+          <svg viewBox="0 0 200 20" xmlns="http://www.w3.org/2000/svg">
+            <path d="M 0,10 C 40,0 60,20 100,10 C 140,0 160,20 200,10" fill="none" stroke="currentColor"
+              stroke-width="2"></path>
+          </svg>
+        </div>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row">
+          <div class="col-12">
+            <div class="resume-wrapper">
+              <div id="experience" class="resume-block" data-aos="fade-up">
+                <h2>Досвід роботи</h2>
+                <!-- <p class="lead">Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet
+                  adipiscing sem neque sed ipsum.</p> -->
+
+
+                <!-- Balance Club -->
+                <div class="timeline">
+                  <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="timeline-left">
+                      <h4 class="company">Balance Club</h4>
+                      <span class="period">2018 — 2019</span>
+                    </div>
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-right">
+                      <h3 class="position">Графічний дизайнер</h3>
+                      <ul class="description">
+                        <li>Створення обкладинок для друкованих журналів</li>
+                        <li>Створення статичних та анімованих банерів для соціальних мереж, сайту, електронної пошти
+                          інформаційні бюлетені, а також адаптація до будь-яких розмірів</li>
+                        <li>Відеомонтаж</li>
+                        <li>Створення лендингів на Tilda</li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <!-- Ministry of Doors -->
+                  <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="timeline-left">
+                      <h4 class="company">Міністерство дверей</h4>
+                      <span class="period">2021 — 2023</span>
+                    </div>
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-right">
+                      <h3 class="position">Провідний графічний дизайнер, маркетолог/таргетолог</h3>
+                      <ul class="description">
+                        <li>Розробка всієї візуальної частини компанії, що забезпечує продажі компанії</li>
+                        <li>Підтримка сайту на Wordpress (також покращення сайту, розробка нових сторінки, наповнення
+                          актуальною інформацією)</li>
+                        <li>Налаштування таргетованої реклами для онлайн-продажів, пошук нових можливостей продаж, та
+                          пошук партнерів (також налаштування форми у FB з системою Бітрікс 24 CRM)</li>
+                        <li>Аналітика реклами та онлайн-продажів, торгових майданчиків (Google Analytics)</li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <!-- Stol i Stul -->
+                  <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="timeline-left">
+                      <h4 class="company">Стіл та Стілець</h4>
+                      <span class="period">2022 — до сьогодні</span>
+                    </div>
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-right">
+                      <h3 class="position">Графічний дизайнер</h3>
+                      <ul class="description">
+                        <li>Дизайн зовнішньої та внутрішньої реклами</li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <!-- Parnter Ukraine -->
+                  <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="timeline-left">
+                      <h4 class="company">Parnter Ukraine</h4>
+                      <span class="period">2022 — 2023</span>
+                    </div>
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-right">
+                      <h3 class="position">Графічний дизайнер</h3>
+                      <p class="description">Розробка дизайну харчової упаковки:</p>
+                      <ul class="description">
+                        <li>Бакалія</li>
+                        <li>Продукти в стіках (мед, варення, цукор)</li>
+                        <li>Концерви</li>
+                        <li>Продукція в саше та дой-паках</li>
+                        <li>Енергетичні батончики</li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <!-- Smart It -->
+                  <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="timeline-left">
+                      <h4 class="company">Smart It</h4>
+                      <span class="period">2022 — 2023</span>
+                    </div>
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-right">
+                      <h3 class="position">Вчитель з графічного дизайну</h3>
+                    </div>
+                  </div>
+
+                  <!-- Akvantis -->
+                  <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="timeline-left">
+                      <h4 class="company">Akvantis</h4>
+                      <span class="period">2022 — 2023</span>
+                    </div>
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-right">
+                      <h3 class="position">Lead графічний дизайнер</h3>
+                      <ul class="description">
+                        <li>Розробка друкованої рекламної продукції</li>
+                        <li>Розробка рекламних макетів для соціальних мереж</li>
+                        <li>Участь у розробці та підтримці сайту</li>
+                        <li>Розробка дизайну для внутрішнього клієнта</li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <!-- EDS -->
+                  <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="timeline-left">
+                      <h4 class="company">EDS</h4>
+                      <span class="period">2025 - до сьогодні</span>
+                    </div>
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-right">
+                      <h3 class="position">Графічний дизайнер</h3>
+                      <ul class="description">
+                        <li>Розробка друкованої рекламної продукції.</li>
+                        <li>Розробка рекламних макетів для соціальних мереж</li>
+                        <li>Участь у розробці та підтримці сайту</li>
+                        <li>Розробка дизайну виставочних стендів</li>
+                      </ul>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+              <div id="education" class="resume-block" data-aos="fade-up" data-aos-delay="100">
+                <h2>Моя освіта</h2>
+
+                <div class="timeline">
+                  <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="timeline-left">
+                      <h4 class="company">Національний гірничий університет</h4>
+                      <span class="period">2018 — 2020</span>
+                    </div>
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-right">
+                      <!-- <h3 class="position">Diploma in Consequat</h3> -->
+                      <p class="description">Технічне обслуговування комп'ютерних систем і мереж</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="courses" class="resume-block" data-aos="fade-up" data-aos-delay="100">
+                <h2>Курси</h2>
+
+                <div class="timeline">
+                  <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="timeline-left">
+                      <h4 class="company">Level Up</h4>
+                      <span class="period">2018 — 2019</span>
+                    </div>
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-right">
+                      <p class="description">UI/UX Design</p>
+                      <p class="description">Основи Графічного дизайну</p>
+                    </div>
+                  </div>
+
+                  <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="timeline-left">
+                      <h4 class="company">IT Center IMT</h4>
+                      <span class="period">2021</span>
+                    </div>
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-right">
+                      <p class="description">Facebook Advertising</p>
+                    </div>
+                  </div>
+
+                  <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="timeline-left">
+                      <h4 class="company">DAN IT</h4>
+                      <span class="period">2024 — 2025</span>
+                    </div>
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-right">
+                      <p class="description">Front-end development</p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- /Resume Section -->
+
+
+    <section class="section">
+      <div class="container" data-aos="fade-up">
+
+        <div class="cv-buttons" data-aos="fade-up" data-aos-delay="300">
+          <a href="https://drive.google.com/file/d/1pxy5LxIRoC9uNnZiN7e0WLCSO2uWxQ7O/view?usp=sharing"
+            class="btn btn-primary" target="_blank">Download CV (EN)</a>
+          <a href="https://drive.google.com/file/d/1OgPKPEJYRWv0MW6kuydnMJYD5cHTZk47/view?usp=drive_link"
+            class="btn btn-outline" target="_blank">Download CV (UA)</a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section light-background">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="content" data-aos="fade-up" data-aos-delay="200">
+          <div class="section-category mb-3">Контакти</div>
+          <h2 class="display-5 mb-4">Дякую за увагу!</h2>
+
+          <div class="contact-info mt-5">
+            <div class="info-item d-flex mb-3">
+              <i class="bi bi-envelope-at me-3"></i>
+              <span>vladyslav.sobolevsky@gmail.com</span>
+            </div>
+
+            <div class="info-item d-flex mb-3">
+              <i class="bi bi-telephone me-3"></i>
+              <span>+38 (063) 26-20-317</span>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer">
+
+    <div class="container">
+
+      <div class="social-links d-flex justify-content-center">
+        <a href="#" class="twitter" target="_blank"><i class="bi bi-telegram"></i></a>
+        <a href="#" class="instagram" target="_blank"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.behance.net/Sobolevsky" class="linkedin" target="_blank"><i class="bi bi-behance"></i></a>
+        <a href="#" class="linkedin"><i class="bi bi-github"></i></a>
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
